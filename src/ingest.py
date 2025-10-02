@@ -24,6 +24,7 @@ def ingest_pdf():
      ):
         if not os.getenv(k):
             raise RuntimeError(f"Environment variable {k} is not set")
+
     docs = PyPDFLoader(str(PDF_PATH)).load()
 
     splits = RecursiveCharacterTextSplitter(
