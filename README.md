@@ -4,7 +4,7 @@
 
 Sistema inteligente de consulta a documentos PDF utilizando **RAG** (Retrieval-Augmented Generation) para fornecer respostas precisas baseadas no conteúdo dos documentos.
 
-## 🛠 Stack Tecnológica
+## 🛠 Stack
 
 - **Python** - Linguagem principal
 - **PDF Loader** - Carregamento e processamento de documentos PDF
